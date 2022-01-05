@@ -11,10 +11,15 @@ position:relative;
 }
 
 .child1{
-    background:red;
+    background:rgb(240, 192, 192);
 }
 .child2{
     page-break-before:always; 
     break-before: always; 
-    background:blue;
+    background:rgb(159, 193, 243)
+}
+.child3{
+    page-break-before:always; 
+    break-before: always; 
+    background:rgb(179, 238, 174);
 }
