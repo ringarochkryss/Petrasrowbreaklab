@@ -8,17 +8,18 @@ display: block;
 height: 200px;
 margin-bottom: -200px;
 position:relative;
+color:pink;
 }
 
-.child1{
+.child1 {
     background:rgb(240, 192, 192);
 }
-.child2{
+.child2 {
     page-break-before:always; 
     break-before: always; 
     background:rgb(159, 193, 243)
 }
-.child3{
+.child3 {
     page-break-before:always; 
     break-before: always; 
     background:rgb(179, 238, 174);
