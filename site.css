@@ -22,16 +22,18 @@ color:pink;
 .child3 {
     page-break-before:always; 
     break-before: always; 
-    background:rgb(179, 238, 174);
-}
-.child3:first-of-type { 
-    display: block; 
-    page-break-before: avoid; 
-    break-before:avoid; 
 }
 
-/*@media print {
-    tr.child3 { display: block; page-break-before: always; break-before:always; }
 
-    tr.child3:first-of-type { display: block; page-break-before: avoid; break-before:avoid; }
-} */ 
+@media print {
+    tr.child3 { 
+        display: block; 
+        page-break-before: always; 
+        break-before:always; 
+    }
+
+    /*tr.child3:first-of-type {
+         display: inline; 
+         page-break-before: avoid; 
+         break-before:avoid; }
+} */
