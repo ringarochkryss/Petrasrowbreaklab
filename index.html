@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="site.css">
 </head>
 
@@ -86,3 +87,10 @@
 </div>
 </body>
 </html>
+<script>
+  $('.child3').each(function(i) {
+    if ( i === 0 ) {
+       $(this).removeClass('child3');
+    }
+});  
+</script>
