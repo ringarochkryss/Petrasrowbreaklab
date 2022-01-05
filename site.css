@@ -23,3 +23,7 @@ position:relative;
     break-before: always; 
     background:rgb(179, 238, 174);
 }
+
+@media print {
+    tr.child3 { display: block; page-break-before: always; break-before:always; }
+}  
