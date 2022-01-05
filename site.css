@@ -23,9 +23,10 @@ color:pink;
     page-break-before:always; 
     break-before: always; 
     background:rgb(179, 238, 174);
-    color:transparent;
 }
 
 @media print {
     tr.child3 { display: block; page-break-before: always; break-before:always; }
+
+    tr.child3:first-of-type { display: block; page-break-before: avoid; break-before:avoid; }
 }  
