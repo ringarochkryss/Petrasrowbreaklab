@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html>
-<style>
-.parent-container{
- position: relative;
-} 
-.parent-container::after {
-content: "";
-display: block;
-height: 200px;
-margin-bottom: -200px;
-position:relative;
-}
-</style>
+<head>
+    <link rel="stylesheet" href="site.css">
+</head>
 
 <body>
 <div class="parent-container">
-<div class="child1" style=”background:red;”> div 1</div>
-<div class="child2" style="page-break-before:always; break-before: always; background:blue;"> div 2</div>
+<div class="child1"> div 1 -This one will not break</div>
+<div class="child2"> div :-This div has a break before</div>
+
+
+
 </div>
 </body>
 </html>
