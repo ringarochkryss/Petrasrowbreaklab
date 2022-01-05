@@ -1,15 +1,23 @@
 # Petrasrowbreaklab
+```
+Printing a table from a webapp is not as easy as it looks. My team got it to work in Firefox but not i Chrome.
+After a lot of tips from collegues around the web, here is a working example. 
 
-This is a working example of how to row break when printing from Chrome
-https://ringarochkryss.github.io/Petrasrowbreaklab/
+[Have a look](https://ringarochkryss.github.io/Petrasrowbreaklab/).
 
-White great thanks from:
-Sources: https://www.smashingmagazine.com/2019/02/css-fragmentation/
-  
-https://www.w3docs.com/snippets/html/how-to-handle-page-breaks-when-printing-a-large-html-table.html
+```
+```
+### Sources
+[Smashing Magazine](https://www.smashingmagazine.com/2019/02/css-fragmentation/).
+Sources: 
+ - [W3docs](https://www.w3docs.com/snippets/html/how-to-handle-page-breaks-when-printing-a-large-html-table.html).
 
-https://stackoverflow.com/questions/17761646/how-to-achieve-page-break-in-html-table-for-google-chrome
+- [Stack Overflow Heroes](https://stackoverflow.com/questions/17761646/how-to-achieve-page-break-in-html-table-for-google-chrome).
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-inside
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/page-break-inside).
 
-https://newbedev.com/applying-page-break-before-to-a-table-row-tr
+- [koolreport forum](https://cdnloader.koolreport.com/forum/topics/1716).
+
+- [Timewise](Timewise.se).
+
+```
