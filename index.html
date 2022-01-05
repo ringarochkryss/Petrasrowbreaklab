@@ -5,15 +5,28 @@
 </head>
 
 <body>
+    <h2>Row Break in Chrome</h2>
+    <button onclick="window.print()">PRINT</button>
+    <ul>
+        <li>Avoid floting elements- Several Boostrap classes will breaking this function (col-12 for instance)</li>
+        <li>All elements up in the DOM must have position:relative</li>
+        <li>Use break-before instead of page-break-before (or both) </li>
+        <li>The break-before must be on a block element</li>
+        <li>The break-before element must have a specified height</li>
+
+    </ul>
+    <h3>DIVS WITH ROW BREAK</h3>
+
 <div class="parent-container">
 <div class="child1"> div 1 -This one will not break</div>
 <div class="child2"> div 2-This div has a break before</div>
 
+<h3>TABLE WITH ROW BREAK IN THE MIDDLE</h3>
 <table>
     <tr>
-      <th>Room 1</th>
-      <th>Room 2</th>
-      <th>Room 3</th>
+      <th>page 2</th>
+      <th></th>
+      <th></th>
     </tr>
     <tr>
       <td>123</td>
@@ -26,10 +39,10 @@
       <td>123</td>
     </tr>
     <tr>
-        <td colspan="3"><table class="child3"><tr>This is a table in the middle of a table</tr></table></td>
+        <td colspan="3"><table class="child3"><tr></tr></table></td>
     </tr>
     <tr>
-      <td>123</td>
+      <td>123 on page 3</td>
       <td>123</td>
       <td>12</td>
     </tr>
